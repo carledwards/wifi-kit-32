@@ -3,15 +3,17 @@ Mac OS X Micropython setup instructions and examples for the WiFi Kit 32 Board
 
 ![](http://esp32.net/images/Heltec/WIFI-Kit-32/Heltec_WIFI-Kit-32_PhotoDisplay.jpg)
 
-##Prerequisites
-1. Using Mac OS X
-2. Python 3 is installed and is the default in the path
+## Prerequisites
+
+1. Using MacOS
+2. Python3 is installed and is the default in the path (Python3 supports virtual environments which is a convenient approach)
 
 ```shell
 % python --version
 Python 3.7.6
 ```
 
+3. Make sure you have the [drivers for SLAB_USBtoUART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers) installed
 
 ## Setup
 
